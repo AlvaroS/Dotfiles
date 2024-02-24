@@ -1,0 +1,9 @@
+configuration {
+  font: "Iosevka 26";
+
+}
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+window {
+  width: 50%;
+  height: 50%;
+}
