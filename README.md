@@ -21,6 +21,9 @@ $ stow .
 ## Links
 
 [Lcpz github](https://github.com/lcpz) - Awesome configuration
+
 [Dreamsofcode github](https://github.com/dreamsofcode-io) - Tmux configuration
+
 [Lazyvim](https://github.com/LazyVim/LazyVim)
+
 [Fundación Gato Andino](https://gatoandino.org/) - Wallpaper.
