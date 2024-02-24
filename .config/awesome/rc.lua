@@ -296,17 +296,6 @@ globalkeys = mytable.join(
 	awful.key({ modkey, "Control" }, "k", function()
 		awful.screen.focus_relative(-1)
 	end, { description = "focus the previous screen", group = "screen" }),
-	awful.key({ modkey }, "u", awful.client.urgent.jumpto, { description = "jump to urgent client", group = "client" }),
-	awful.key({ modkey }, "Tab", function()
-		if cycle_prev then
-			awful.client.focus.history.previous()
-		else
-			awful.client.focus.byidx(-1)
-		end
-		if client.focus then
-			client.focus:raise()
-		end
-	end, { description = "cycle with previous/go back", group = "client" }),
 
 	-- Standard program
 	awful.key({ modkey, "Shift" }, "Return", function()
