@@ -9,8 +9,8 @@ from other websites.
 
 First clone the repo to your $HOME.
 ```
-$ git clone https://github.com/AlvaroS/Dotfiles.git
-$ cd Dotfiles
+$ git clone https://github.com/AlvaroS/dotfiles.git
+$ cd dotfiles
 ```
 
 then use GNU Stow to create symlinks.
