@@ -353,7 +353,6 @@ globalkeys = mytable.join(
 	awful.key({ modkey }, "r", function()
 		awful.screen.focused().mypromptbox:run()
 	end, { description = "run prompt", group = "launcher" }),
-
 	awful.key({ modkey }, "x", function()
 		awful.prompt.run({
 			prompt = "Run Lua code: ",
@@ -361,8 +360,12 @@ globalkeys = mytable.join(
 			exe_callback = awful.util.eval,
 			history_path = awful.util.get_cache_dir() .. "/history_eval",
 		})
-	end, { description = "lua execute prompt", group = "awesome" })
-	--]]
+	end, { description = "lua execute prompt", group = "awesome" }),
+
+	-- Change Layout
+	awful.key({ altkey }, "space", function()
+		awful.util.spawn("sh /home/alvro/bin/kb-ly")
+	end, { description = "Change keyboard layout", group = "hotkeys" })
 )
 
 clientkeys = mytable.join(
