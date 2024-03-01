@@ -22,6 +22,8 @@ export LANG=en_US.UTF-8
 
 eval "$(zoxide init zsh)"
 
+TERM=xterm-256color
+
 alias ls="exa"
 alias cat="bat"
 alias cd="z"
